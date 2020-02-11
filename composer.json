@@ -21,7 +21,7 @@
       "email": "holbok@gmail.com",
       "role": "Developer"
     }
-  ]
+  ],
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {

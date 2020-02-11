@@ -16,3 +16,13 @@ Get full documentation of [Laravel Log Reader](https://laravelarticle.com/larave
 
 This is a forked version of the original package with translations
 
+## Installation of the forked version
+
+composer require successdev/laravel-log-reader
+
+## Config file
+
+php artisan vendor:publish --provider="Successdev\LaravelLogReader\ServiceProvider" --tag="config"
+
+## Translations
+

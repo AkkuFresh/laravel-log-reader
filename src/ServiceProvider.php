@@ -15,7 +15,9 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
         $this->publishes([
             self::CONFIG_PATH => config_path('laravel-log-reader.php'),
         ], 'config');
-
+        $this->publishes([
+            self::LANG_PATH => resource_path('lang'),
+        ]);
         $this->loadRoutesFrom(self::ROUTE_PATH . '/web.php');
         $this->loadViewsFrom(self::VIEW_PATH, 'LaravelLogReader');
         $this->loadTranslationsFrom(self::LANG_PATH, 'LaravelLogReader');

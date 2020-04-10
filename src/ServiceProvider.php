@@ -1,6 +1,6 @@
 <?php
 
-namespace Successdev\LaravelLogReader;
+namespace Trianity\LaravelLogReader;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {

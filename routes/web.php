@@ -1,5 +1,5 @@
 <?php
-Route::group(['namespace' => 'Successdev\LaravelLogReader\Controllers', 'middleware' => config('laravel-log-reader.middleware')], function () {
+Route::group(['namespace' => 'Trianity\LaravelLogReader\Controllers', 'middleware' => config('laravel-log-reader.middleware')], function () {
 
     Route::get(config('laravel-log-reader.view_route_path'), 'LogReaderController@getIndex');
     Route::post(config('laravel-log-reader.view_route_path'), 'LogReaderController@postDelete');

@@ -1,9 +1,9 @@
 <?php
 
-namespace Successdev\LaravelLogReader\Controllers;
+namespace Trianity\LaravelLogReader\Controllers;
 
 use App\Http\Controllers\Controller;
-use Successdev\LaravelLogReader\LaravelLogReader;
+use Trianity\LaravelLogReader\LaravelLogReader;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
 

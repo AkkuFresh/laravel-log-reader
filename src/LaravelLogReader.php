@@ -4,7 +4,7 @@
  * Date: 25/01/2020
  * Website: laravelarticle.com
  */
-namespace Successdev\LaravelLogReader;
+namespace Trianity\LaravelLogReader;
 
 class LaravelLogReader
 {

@@ -1,5 +1,5 @@
 {
-  "name": "successdev/laravel-log-reader",
+  "name": "trianity/laravel-log-reader",
   "description": "A simple and beautiful laravel log reader",
   "license": "cc-by-4.0",
   "keywords": [
@@ -19,7 +19,7 @@
     {
       "name": "Istvan Holbok",
       "email": "holbok@gmail.com",
-      "homepage": "https://github.com/AkkuFresh/laravel-log-reader",
+      "homepage": "https://github.com/trianity/laravel-log-reader",
       "role": "Developer"
     }
   ],
@@ -30,7 +30,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Successdev\\LaravelLogReader\\": "src"
+      "Trianity\\LaravelLogReader\\": "src"
     }
   },
   "scripts": {
@@ -39,7 +39,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Successdev\\LaravelLogReader\\ServiceProvider"
+        "Trianity\\LaravelLogReader\\ServiceProvider"
       ]
     }
   },
